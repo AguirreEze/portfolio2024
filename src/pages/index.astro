@@ -1,11 +1,22 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro"
+
+import SectionContainer from "@/components/SectionContainer.astro"
+import Hero from "@/components/Hero.astro"
+
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-	</main>
+<Layout
+  title="Porfolio de Aguirre Ezequiel - Desarrollador Web con 2 años de experiencia"
+  description="Contrata a Ezequiel para crear tu aplicación web. Desarrollador Web enfocado en Front-end. Especializado en ReactJS y NextJS."
+>
+  <main class="px-4">
+    <SectionContainer class="py-16 md:py-36">
+      <Hero>
+      </slot>
+    </Hero>
+    </SectionContainer>
+ 
+  </div>
+  </main>
 </Layout>
-
-<style>
-</style>
