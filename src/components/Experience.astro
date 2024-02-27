@@ -1,0 +1,30 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCIE = [
+  {
+    date: "Junio 2022 - Octubre 2023",
+    title: "Desarrollador Front-end",
+    company: "MContigo",
+    description:
+      "Enfocado en mejorar métricas, corrección de errores, implementar nuevos diseños y reforzar buenas prácticas.",
+  },
+  {
+    date: "Septiembre 2021 - Julio 2022",
+    title: "Freelance",
+    company: "Self-employed",
+    description:
+      "Trabajando en pequeños para mejorar mis conocimientos sobre el desarrollo web. Desarrollador y mantenedor del proyecto Fullstack ReventandoOtrosMundos",
+    link: "https://reventandootrosmundos.vercel.app",
+  },
+];
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCIE.map((experiencie) => (
+      <li class="">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }
+</ol>
