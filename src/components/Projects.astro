@@ -7,6 +7,11 @@ import Tailwind from "./icons/Tailwind.astro";
 import Link from "./icons/Link.astro";
 import LinkButton from "./LinkButton.astro";
 
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
 const TAGS = {
   NEXT: {
     name: "Next.js",
@@ -32,31 +37,28 @@ const TAGS = {
 
 const PROJECTS = [
   {
-    title: "Reventando Otros Mundos",
-    description:
-      "Biblioteca utilizada en el programa de radio Invernalia para enlistar los juegos ya transmitidos en Twitch y los Animes reseñados durante el programa.",
-    link: "https://reventandootrosmundos.vercel.app/",
+    title: t("projects[0].title"),
+    description: t("projects[0].description"),
+    link: t("projects[0].link"),
+    image: t("projects[0].image"),
+    imgAlt: t("projects[0].imgAlt"),
     github: "https://github.com/AguirreEze/reventando_otros_mundos",
-    image: "/projects/ReventandoOtrosMundos.webp",
-    imgAlt: "Project sneak peek image",
     tags: [TAGS.NEXT, TAGS.TYPESCRIPT],
   },
   {
-    title: "Mejor con Salud",
-    description:
-      "Trabajé en un sitio web perteneciente a MContigo que presenta artículos relacionados con la salud. En este proyecto, sugerí e implementé On-Demand Static Revalidation, lo que resultó en una reducción considerable en los costos del servidor. Además, contribuí con la implementación de nuevos diseños y componentes de Amazon, y ayudé significativamente a mejorar los resultados de Core Web Vitals.",
-    link: "https://mejorconsalud.as.com",
-    image: "/projects/MejorConSalud.webp",
-    imgAlt: "Project sneak peek image",
+    title: t("projects[1].title"),
+    description: t("projects[1].description"),
+    link: t("projects[1].link"),
+    image: t("projects[1].image"),
+    imgAlt: t("projects[1].imgAlt"),
     tags: [TAGS.NEXT],
   },
   {
-    title: "Travelplannet",
-    description:
-      "Trabajé en un sitio web que pertenece a MContigo, donde realicé una migración completa de la base de ReactJS a NextJS v13. Además, implementé un pipeline de despliegue y la correspondiente configuración de Docker.",
-    link: "https://travelplannet.com",
-    image: "/projects/TravelPlannet.webp",
-    imgAlt: "Project sneak peek image",
+    title: t("projects[2].title"),
+    description: t("projects[2].description"),
+    link: t("projects[2].link"),
+    image: t("projects[2].image"),
+    imgAlt: t("projects[2].imgAlt"),
     tags: [TAGS.NEXT, TAGS.DOCKER],
   },
 ];
@@ -103,13 +105,13 @@ const PROJECTS = [
                 {github && (
                   <LinkButton href={github}>
                     <GitHub class="size-6" />
-                    Code
+                    {t("project.code")}
                   </LinkButton>
                 )}
                 {link && (
                   <LinkButton href={link}>
                     <Link class="size-4" />
-                    Preview
+                    {t("project.production")}
                   </LinkButton>
                 )}
               </footer>

@@ -1,20 +1,23 @@
 ---
 import ExperienceItem from "./ExperienceItem.astro";
+
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
 const EXPERIENCIE = [
   {
-    date: "Junio 2022 - Octubre 2023",
-    title: "Desarrollador Front-end",
-    company: "MContigo",
-    description:
-      "Mi primer trabajo como Desarrollador Front-end, en el cual contribuí en varios proyectos de la empresa, desde herramientas de uso interno hasta un proyecto con millones de visitas diarias y publicado en más de diez idiomas. Lamentablemente, el equipo al cual pertenecía fue desarmado.",
+    date: t("exp[1].date"),
+    title: t("exp[1].title"),
+    company: t("exp[1].company"),
+    description: t("exp[1].description"),
   },
   {
-    date: "Septiembre 2021 - Julio 2022",
-    title: "Freelance",
-    company: "Self-employed",
-    description:
-      "Trabajando en pequeños para mejorar mis conocimientos sobre el desarrollo web. Desarrollador y mantenedor del proyecto Fullstack ReventandoOtrosMundos",
-    link: "https://reventandootrosmundos.vercel.app",
+    date: t("exp[0].date"),
+    title: t("exp[0].title"),
+    company: t("exp[0].company"),
+    description: t("exp[0].description"),
   },
 ];
 ---
