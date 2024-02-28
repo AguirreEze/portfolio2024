@@ -77,12 +77,13 @@ export const languages = {
         'hero.cvURL': "/AguirreEzequielES.pdf",
         'hero.cvName': "Aguirre Ezequiel CV (esp)",
 
-        'exp.date[0]': 'Septiembre 2021 - Julio 2022',
-        'exp.title[0]': 'Freelance',
-        'exp.description[0]': 'Trabajando en pequeños para mejorar mis conocimientos sobre el desarrollo web. Desarrollador y mantenedor del proyecto Fullstack ReventandoOtrosMundos',
+        'exp[0].title': 'Freelance',
+        'exp[0].date': 'Septiembre 2021 - Julio 2022',
+        'exp[0].description': 'Trabajando en pequeños para mejorar mis conocimientos sobre el desarrollo web. Desarrollador y mantenedor del proyecto Fullstack ReventandoOtrosMundos',
 
-        'exp.date[1]': 'Junio 2022 - Octubre 2023',
-        'exp.description[1]': 'Mi primer trabajo como Desarrollador Front-end, en el cual contribuí en varios proyectos de la empresa, desde herramientas de uso interno hasta un proyecto con millones de visitas diarias y publicado en más de diez idiomas. Lamentablemente, el equipo al cual pertenecía fue desarmado.',
+        'exp[1].title': 'Desarrollador Front-end',
+        'exp[1].date': 'Junio 2022 - Octubre 2023',
+        'exp[1].description': 'Mi primer trabajo como Desarrollador Front-end, en el cual contribuí en varios proyectos de la empresa, desde herramientas de uso interno hasta un proyecto con millones de visitas diarias y publicado en más de diez idiomas. Lamentablemente, el equipo al cual pertenecía fue desarmado.',
 
         'project.code' : "Código",
         'project.production' : "Producción",
@@ -96,7 +97,7 @@ export const languages = {
 
         'projects[2].description': "Sitio web que pertenece a MContigo, donde realicé una migración completa de la base de ReactJS a NextJS v13. Además, implementé un pipeline de despliegue y la correspondiente configuración de Docker.",
 
-        'aboutMe.texts[0]': 'Me llamo Ezequiel Aguirre. Comencé en la programación a principios del año 2021. A mediados de septiembre del mismo año, decidíenfocarme en aprender desarrollo web.',
+        'aboutMe.texts[0]': 'Me llamo Ezequiel Aguirre. Comencé en la programación a principios del año 2021. A mediados de septiembre del mismo año, decidí enfocarme en aprender desarrollo web.',
         'aboutMe.texts[1]': 'Completé el bootcamp gratuito en fullstackopen, donde aprendí lo básico de ReactJS. A partir de esto, decidí aprender el Framework NextJS, concentrándome en comprender diferentes tipos de implementaciones sin utilizar más librerías de terceros.',
         'aboutMe.texts[2]': 'Gracias a esto, pude conseguir mi primer trabajo como Desarrollador Front-end en la empresa MContigo. En este puesto, pude contribuir en distintos proyectos pertenecientes a la empresa, incluyendo herramientas de uso interno.',
         'aboutMe.texts[3]': 'Actualmente me encuentro en busca de mi próximo empleo, mientras me mantengo al tanto de las nuevas características de ReactJS/NextJS y aprendiendo a utilizar Astro.',
