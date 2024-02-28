@@ -3,6 +3,7 @@ import Badge from "@/components/Badge.astro";
 import LinkedInIcon from "@/components/icons/LinkedIn.astro";
 import MailIcon from "@/components/icons/Mail.astro";
 import SocialPill from "@/components/SocialPill.astro";
+import PdfFile from "@/components/icons/PdfFile.astro";
 
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 
@@ -45,6 +46,10 @@ const t = useTranslations(lang);
     <SocialPill href="https://www.linkedin.com/in/ezequiel-aguirre-774321218/">
       <LinkedInIcon class="size-4" />
       {t("linkedin")}
+    </SocialPill>
+    <SocialPill href={t("hero.cvURL")} download={t("hero.cvName")}>
+      <PdfFile class="size-4" />
+      {t("hero.cv")}
     </SocialPill>
   </nav>
 </div>
