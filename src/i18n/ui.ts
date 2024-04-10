@@ -31,7 +31,12 @@ export const languages = {
         'exp[1].title': 'Front-end Developer',
         'exp[1].date': 'June 2022 - October 2023',
         'exp[1].company': 'MContigo',
-        'exp[1].description': 'My first job as a Front-end Developer, in which I contributed to various projects of the company, ranging from internal tools to a project with millions of daily visits and published in over ten languages. Unfortunately, the team I belonged to was disbanded.',
+        'exp[1].description': 'My first job as a Front-end Developer, in which I contributed to various projects of the company, ranging from internal tools to a project with millions of daily visits and published in over ten languages.',
+
+        'exp[2].title': 'Freelance',
+        'exp[2].date': 'October 2023 - Present',
+        'exp[2].company': 'Self-employed',
+        'exp[2].description': 'Developing and implementing specific tasks for MContigo, the creator and maintainer of various small projects.',
 
         'project.code' : "Code",
         'project.production' : "Production",
@@ -83,7 +88,10 @@ export const languages = {
 
         'exp[1].title': 'Desarrollador Front-end',
         'exp[1].date': 'Junio 2022 - Octubre 2023',
-        'exp[1].description': 'Mi primer trabajo como Desarrollador Front-end, en el cual contribuí en varios proyectos de la empresa, desde herramientas de uso interno hasta un proyecto con millones de visitas diarias y publicado en más de diez idiomas. Lamentablemente, el equipo al cual pertenecía fue desarmado.',
+        'exp[1].description': 'Mi primer trabajo como Desarrollador Front-end, en el cual contribuí en varios proyectos de la empresa, desde herramientas de uso interno hasta un proyecto con millones de visitas diarias y publicado en más de diez idiomas.',
+
+        'exp[2].date': 'Octubre 2023 - Presente',
+        'exp[2].description': 'Desarrollando e implementando tareas específica para MContigo, creador y mantenedor de varios pequeños proyectos',
 
         'project.code' : "Código",
         'project.production' : "Producción",
