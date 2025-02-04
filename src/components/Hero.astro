@@ -47,7 +47,10 @@ const t = useTranslations(lang);
       <LinkedInIcon class="size-4" />
       {t("linkedin")}
     </SocialPill>
-    <SocialPill href={t("hero.cvURL")} download={t("hero.cvName")}>
+    <SocialPill
+      href={"/Ezequiel_Aguirre_CV.pdf"}
+      download={"Aguirre Ezequiel CV"}
+    >
       <PdfFile class="size-4" />
       {t("hero.cv")}
     </SocialPill>

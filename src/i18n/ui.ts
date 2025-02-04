@@ -20,8 +20,6 @@ export const languages = {
         'hero.description': '3 years of experience, from Buenos Aires, Argentina. Specialized in the use and optimization of the NextJS / ReactJS framework.',
         'hero.contact': 'Contact Me',
         'hero.cv': "Download CV",
-        'hero.cvURL': "/AguirreEzequielEN.pdf",
-        'hero.cvName': "Aguirre Ezequiel CV (eng)",
 
         'exp[0].title': 'Freelance',
         'exp[0].date': 'September 2021 - July 2022',
@@ -89,8 +87,6 @@ export const languages = {
         'hero.description': '3 años de experiencia, de Buenos Aires, Argentina. Especializado en el uso y optimización del framework NextJS / ReactJS.',
         'hero.contact': 'Contáctame',
         'hero.cv': "Descarga CV",
-        'hero.cvURL': "/AguirreEzequielES.pdf",
-        'hero.cvName': "Aguirre Ezequiel CV (esp)",
 
         'exp[0].title': 'Freelance',
         'exp[0].date': 'Septiembre 2021 - Julio 2022',
