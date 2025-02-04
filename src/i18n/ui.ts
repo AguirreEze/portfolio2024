@@ -12,12 +12,12 @@ export const languages = {
 
         'nav.experience': 'Experience',
         'nav.proyects': 'Projects',
-        'nav.aboutMe': 'About Me',
+        'nav.aboutMe': 'About',
         'nav.contact': 'Contact',
 
         'hero.openforwork': 'Open to work',
         'hero.title': "Hey, i'm Ezequiel",
-        'hero.description': '2 years of experience, from Buenos Aires, Argentina. Specialized in the use and optimization of the NextJS / ReactJS framework.',
+        'hero.description': '3 years of experience, from Buenos Aires, Argentina. Specialized in the use and optimization of the NextJS / ReactJS framework.',
         'hero.contact': 'Contact Me',
         'hero.cv': "Download CV",
         'hero.cvURL': "/AguirreEzequielEN.pdf",
@@ -34,9 +34,14 @@ export const languages = {
         'exp[1].description': 'My first job as a Front-end Developer, in which I contributed to various projects of the company, ranging from internal tools to a project with millions of daily visits and published in over ten languages.',
 
         'exp[2].title': 'Freelance',
-        'exp[2].date': 'October 2023 - Present',
+        'exp[2].date': 'October 2023 - June 2024',
         'exp[2].company': 'Self-employed',
         'exp[2].description': 'Developing and implementing specific tasks for MContigo, the creator and maintainer of various small projects.',
+
+        'exp[3].title': 'Fullstack Developer',
+        'exp[3].date': 'June 2024 - Present',
+        'exp[3].company': 'Evodicom',
+        'exp[3].description': 'I worked on a health-related project based on ReactJS and .NET, where I began learning backend development with the .NET framework.',
 
         'project.code' : "Code",
         'project.production' : "Production",
@@ -59,12 +64,17 @@ export const languages = {
         'projects[2].image': "/projects/TravelPlannet.webp",
         'projects[2].imgAlt': "Project sneak peek image",
 
-        'aboutMe.texts[0]': 'My name is Ezequiel Aguirre. I started programming in early 2021. In mid-September of the same year, I decided to focus on learning web development.',
-        'aboutMe.texts[1]': 'I completed the free bootcamp at fullstackopen, where I learned the basics of ReactJS. From there, I decided to learn the Next.js framework, focusing on understanding different types of implementations without relying on additional third-party libraries.',
-        'aboutMe.texts[2]': 'Thanks to this, I was able to secure my first job as a Front-end Developer at MContigo. In this role, I contributed to various projects within the company, including internal use tools.',
-        'aboutMe.texts[3]': 'Currently, I am seeking my next employment opportunity while staying updated on the new features of ReactJS/NextJS and learning to use Astro.',
+        'projects[3].title': "Evodicom",
+        'projects[3].description': "A private app owned by Evodicom, used in health facilities to analyze and manage studies. This is where I learned to work with DICOMs and started backend development using the .NET Framework.",
+        'projects[3].image': "/projects/Evodicom.webp",
+        'projects[3].imgAlt': "Project sneak peek image",
 
-        'footer.disclaimer': 'Aguirre Ezequel. (Design based on portfolio made by'
+        'aboutMe.texts[0]': 'My name is Ezequiel Aguirre. I consider myself an expert in the use and optimization of ReactJS and Typescript. I\'m also experienced in using Node.js and have started learning my way around the .NET Framework.',
+        'aboutMe.texts[1]': 'I decided to learn ReactJS by focusing on understanding different types of implementations without relying on additional third-party libraries. Thanks to that, I have a deep understanding of how it works internally.',
+        'aboutMe.texts[2]': 'I was able to secure my first job as a Front-end Developer at MContigo, where I worked until the development team was laid off. Currently, I\'m working at Evodicom as a Full-stack Developer.',
+        'aboutMe.texts[3]': 'I\'m looking for a work opportunity that allows me to level up as a developer',
+
+        'footer.disclaimer': 'Aguirre Ezequel.'
     },
     es: {
         'profesion': 'Desarrollador Front-end.',
@@ -76,7 +86,7 @@ export const languages = {
 
         'hero.title': "Hey, soy Ezequiel",
         'hero.openforwork': 'Disponible para trabajar',
-        'hero.description': '2 años de experiencia, de Buenos Aires, Argentina. Especializado en el uso y optimización del framework NextJS / ReactJS.',
+        'hero.description': '3 años de experiencia, de Buenos Aires, Argentina. Especializado en el uso y optimización del framework NextJS / ReactJS.',
         'hero.contact': 'Contáctame',
         'hero.cv': "Descarga CV",
         'hero.cvURL': "/AguirreEzequielES.pdf",
@@ -90,8 +100,12 @@ export const languages = {
         'exp[1].date': 'Junio 2022 - Octubre 2023',
         'exp[1].description': 'Mi primer trabajo como Desarrollador Front-end, en el cual contribuí en varios proyectos de la empresa, desde herramientas de uso interno hasta un proyecto con millones de visitas diarias y publicado en más de diez idiomas.',
 
-        'exp[2].date': 'Octubre 2023 - Presente',
+        'exp[2].date': 'Octubre 2023 - Junio 2024',
         'exp[2].description': 'Desarrollando e implementando tareas específica para MContigo, creador y mantenedor de varios pequeños proyectos',
+
+        'exp[3].date': 'Junio 2024 - Presente',
+        'exp[3].description': 'Trabajando tiempo completo en un proyecto relacionado a la salud, aqui empece a trabajar profecionalmente en el backend con el framework .Net',
+
 
         'project.code' : "Código",
         'project.production' : "Producción",
@@ -105,11 +119,13 @@ export const languages = {
 
         'projects[2].description': "Sitio web que pertenece a MContigo, donde realicé una migración completa de la base de ReactJS a NextJS v13. Además, implementé un pipeline de despliegue y la correspondiente configuración de Docker.",
 
-        'aboutMe.texts[0]': 'Me llamo Ezequiel Aguirre. Comencé en la programación a principios del año 2021. A mediados de septiembre del mismo año, decidí enfocarme en aprender desarrollo web.',
-        'aboutMe.texts[1]': 'Completé el bootcamp gratuito en fullstackopen, donde aprendí lo básico de ReactJS. A partir de esto, decidí aprender el Framework NextJS, concentrándome en comprender diferentes tipos de implementaciones sin utilizar más librerías de terceros.',
-        'aboutMe.texts[2]': 'Gracias a esto, pude conseguir mi primer trabajo como Desarrollador Front-end en la empresa MContigo. En este puesto, pude contribuir en distintos proyectos pertenecientes a la empresa, incluyendo herramientas de uso interno.',
-        'aboutMe.texts[3]': 'Actualmente me encuentro en busca de mi próximo empleo, mientras me mantengo al tanto de las nuevas características de ReactJS/NextJS y aprendiendo a utilizar Astro.',
+        'projects[3].description': 'App privada perteneciente a Evodicom, utilizada por centros médicos para analizar y manejar estudios. En este proyecto aprendí a trabajar con el sistema de imágenes DICOMs y trabajar en el backend utilizando el framework .NET',
 
-        'footer.disclaimer': 'Aguirre Ezequel. (Diseño basado en portfolio armado por'
+        'aboutMe.texts[0]': 'Me llamo Ezequiel Aguirre. Me considero un experto en el uso y la optimización de ReactJS y Typescript. También tengo experiencia utilizando Node.js y recientemente empecé a aprender a utilizar el framework .NET.',
+        'aboutMe.texts[1]': 'Decidí aprender ReactJS sin depender de librerías de terceros. Gracias a esto, tengo un conocimiento profundo de cómo funciona.',
+        'aboutMe.texts[2]': 'Gracias a esto, pude obtener mi primer trabajo como Desarrollador Frontend en Mcontigo, donde trabajé hasta que todo el equipo de desarrollo fue despedido. Actualmente, trabajo como Desarrollador Fullstack en la empresa Evodicom.',
+        'aboutMe.texts[3]': 'Actualmente, estoy buscando una oportunidad laboral que me permita llevar mi trabajo como desarrollador al siguiente nivel.',
+
+        'footer.disclaimer': 'Aguirre Ezequel.'
       },
   } as const;

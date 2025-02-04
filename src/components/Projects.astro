@@ -3,6 +3,7 @@ import GitHub from "./icons/GitHub.astro";
 import NextJS from "./icons/NextJS.astro";
 import Docker from "./icons/Docker.astro";
 import Typescript from "./icons/Typescript.astro";
+import Net from "./icons/Net.astro";
 import Tailwind from "./icons/Tailwind.astro";
 import Link from "./icons/Link.astro";
 import LinkButton from "./LinkButton.astro";
@@ -33,9 +34,21 @@ const TAGS = {
     class: "bg-[#3178c6] text-white",
     icon: Typescript,
   },
+  NET: {
+    name: ".NET",
+    class: "bg-[#512BD4] text-white",
+    icon: Net,
+  },
 };
 
 const PROJECTS = [
+  {
+    title: t("projects[3].title"),
+    description: t("projects[3].description"),
+    image: t("projects[3].image"),
+    imgAlt: t("projects[3].imgAlt"),
+    tags: [TAGS.TYPESCRIPT, TAGS.NET],
+  },
   {
     title: t("projects[0].title"),
     description: t("projects[0].description"),
