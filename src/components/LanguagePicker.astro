@@ -8,6 +8,7 @@ const currentLang = getLangFromUrl(Astro.url);
 <select
   class="relative px-2 py-2 transition cursor-pointer rounded bg-transparent"
   id="languageSelect"
+  aria-label="Language / Idioma"
 >
   {
     Object.entries(languages).map(([lang, label]) => (

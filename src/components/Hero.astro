@@ -9,6 +9,9 @@ import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+
+// Set to true to show the "Open to work" badge next to the avatar.
+const SHOW_OPEN_TO_WORK = false;
 ---
 
 <div class="max-w-xl">
@@ -16,16 +19,20 @@ const t = useTranslations(lang);
     <img
       class="rounded-full shadow-lg size-16"
       src="/hero.webp"
-      alt="Aguirre Ezequiel"
+      alt="Ezequiel Aguirre"
     />
-    <a
-      href="https://www.linkedin.com/in/ezequiel-aguirre-774321218/"
-      target="_blank"
-      rel="noopener"
-      class="flex items-center transition md:justify-center md:hover:scale-105"
-    >
-      <Badge>{t("hero.openforwork")}</Badge>
-    </a>
+    {
+      SHOW_OPEN_TO_WORK && (
+        <a
+          href="https://www.linkedin.com/in/ezequiel-aguirre-774321218/"
+          target="_blank"
+          rel="noopener"
+          class="flex items-center transition md:justify-center md:hover:scale-105"
+        >
+          <Badge>{t("hero.openforwork")}</Badge>
+        </a>
+      )
+    }
   </div>
   <h1
     class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"

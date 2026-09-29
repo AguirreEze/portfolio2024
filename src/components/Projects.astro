@@ -5,6 +5,8 @@ import Docker from "./icons/Docker.astro";
 import Typescript from "./icons/Typescript.astro";
 import Net from "./icons/Net.astro";
 import Tailwind from "./icons/Tailwind.astro";
+import ReactIcon from "./icons/React.astro";
+import Azure from "./icons/Azure.astro";
 import Link from "./icons/Link.astro";
 import LinkButton from "./LinkButton.astro";
 
@@ -39,15 +41,32 @@ const TAGS = {
     class: "bg-[#512BD4] text-white",
     icon: Net,
   },
+  REACT: {
+    name: "React",
+    class: "bg-[#20232a] text-[#61dafb]",
+    icon: ReactIcon,
+  },
+  AZURE: {
+    name: "Azure",
+    class: "bg-[#0078d4] text-white",
+    icon: Azure,
+  },
 };
 
 const PROJECTS = [
+  {
+    title: t("projects[4].title"),
+    description: t("projects[4].description"),
+    image: t("projects[4].image"),
+    imgAlt: t("projects[4].imgAlt"),
+    tags: [TAGS.REACT, TAGS.TYPESCRIPT, TAGS.NET, TAGS.AZURE],
+  },
   {
     title: t("projects[3].title"),
     description: t("projects[3].description"),
     image: t("projects[3].image"),
     imgAlt: t("projects[3].imgAlt"),
-    tags: [TAGS.TYPESCRIPT, TAGS.NET],
+    tags: [TAGS.REACT, TAGS.TYPESCRIPT, TAGS.NET, TAGS.AZURE],
   },
   {
     title: t("projects[0].title"),
@@ -69,7 +88,6 @@ const PROJECTS = [
   {
     title: t("projects[2].title"),
     description: t("projects[2].description"),
-    link: t("projects[2].link"),
     image: t("projects[2].image"),
     imgAlt: t("projects[2].imgAlt"),
     tags: [TAGS.NEXT, TAGS.DOCKER],
@@ -98,7 +116,7 @@ const PROJECTS = [
               {title}
             </h3>
             <div class="flex flex-wrap mt-2">
-              <ul class="flex flex-row mb-2 gap-x-2">
+              <ul class="flex flex-row flex-wrap mb-2 gap-2">
                 {tags.map((tag) => (
                   <li>
                     <span
@@ -131,7 +149,7 @@ const PROJECTS = [
             </div>
           </div>
         </article>
-      )
+      ),
     )
   }
 </div>
