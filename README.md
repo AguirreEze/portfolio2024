@@ -2,7 +2,7 @@
 
 Personal portfolio of **Ezequiel Aguirre**, Full-stack Developer (React · TypeScript · .NET · Azure) based in Buenos Aires, Argentina.
 
-🌐 **Live:** https://aguirreeze.vercel.app · 📄 [CV (PDF)](public/Ezequiel_Aguirre_CV.pdf) · 💼 [LinkedIn](https://www.linkedin.com/in/ezequiel-aguirre-774321218/)
+🌐 **Live:** https://aguirreeze.vercel.app · 📄 [CV (PDF)](public/Ezequiel_Aguirre_CV.pdf) · 💼 [LinkedIn](https://www.linkedin.com/in/ezequiel-aguirre-dev/)
 
 ![Social preview](public/og.png)
 

@@ -38,6 +38,7 @@ export const languages = {
 
         'project.code' : "Code",
         'project.production' : "Production",
+        'project.demoData' : "Demo data",
 
         'projects[0].title': "Reventando Otros Mundos",
         'projects[0].description': "Library used on the Invernalia radio show to list the games already streamed on Twitch and the anime reviewed during the show.",
@@ -102,6 +103,7 @@ export const languages = {
 
         'project.code' : "Código",
         'project.production' : "Producción",
+        'project.demoData' : "Datos de demostración",
 
         'projects[0].description': "Biblioteca utilizada en el programa de radio Invernalia para listar los juegos ya transmitidos en Twitch y los animes reseñados durante el programa.",
         'projects[0].imgAlt': "Página de inicio de Reventando Otros Mundos",
