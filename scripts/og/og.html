@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<!-- Source of public/og.png (1200x630 social preview). Regenerate with: npm run og -->
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #fff;
+    background:
+      radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120,119,198,0.45), rgba(3,7,18,0)),
+      #030712;
+    display: flex; align-items: center; gap: 64px; padding: 0 96px; box-sizing: border-box;
+  }
+  img { width: 260px; height: 260px; border-radius: 32px; object-fit: cover; transform: rotate(3deg);
+        box-shadow: 0 0 0 2px rgba(255,255,255,0.2), 0 20px 60px rgba(0,0,0,0.5); }
+  h1 { font-size: 76px; margin: 0; letter-spacing: -1.5px; line-height: 1; }
+  .role { font-size: 40px; color: #fde68a; font-weight: 600; margin: 18px 0 28px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 12px; }
+  .tags span { font-size: 24px; padding: 8px 18px; border-radius: 999px; background: rgba(255,255,255,0.08);
+               border: 1px solid rgba(255,255,255,0.18); }
+  .url { margin-top: 32px; font-size: 24px; color: rgba(255,255,255,0.6); }
+</style>
+</head>
+<body>
+  <img src="../../public/hero.webp" alt="" />
+  <div>
+    <h1>Ezequiel Aguirre</h1>
+    <div class="role">Full-stack Developer</div>
+    <div class="tags">
+      <span>React</span><span>TypeScript</span><span>.NET</span><span>Azure</span><span>Healthcare SaaS</span>
+    </div>
+    <div class="url">aguirreeze.vercel.app</div>
+  </div>
+</body>
+</html>
